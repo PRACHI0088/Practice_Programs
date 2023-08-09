@@ -1,4 +1,6 @@
-//multiplying two numbers without using "*" operator .
+//Multiplying two numbers without using the "*" Operator.
+// I have used the Recursion Function in order to multiply the two numbers without using the "*" Operator.
+
 #include<iostream>
 using namespace std;
 
@@ -7,10 +9,11 @@ int fun(int a, int b)
 if(b==0)
 {
 	return 0;
- } 
- else 
+ } 	
+ else 	
  if(b==1)
- {return a;
+ {
+	 return a;
  }
  else
     if(b>=1)
